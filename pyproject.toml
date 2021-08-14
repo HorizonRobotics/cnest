@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cnest"
-version = "1.0.0"
+version = "1.0.1"
 description = "An efficient library providing operators on Python's nested data structures, implemented in C++"
 authors = ["Haonan Yu <haonan.yu@horizon.ai>"]
 build = "build.py"
