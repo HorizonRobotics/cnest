@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "An efficient library providing operators on Python's nested data structures, implemented in C++"
 authors = ["Haonan Yu <haonan.yu@horizon.ai>"]
 build = "build.py"
+readme = 'README.md'
 
 [tool.poetry.dependencies]
 python = "^3.8"
