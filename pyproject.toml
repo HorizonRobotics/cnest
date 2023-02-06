@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cnest"
-version = "1.0.3"
+version = "1.0.4"
 description = "An efficient library providing operators on Python's nested data structures, implemented in C++"
 authors = ["Haonan Yu <haonan.yu@horizon.ai>"]
 build = "build.py"
@@ -14,5 +14,5 @@ pybind11 = "^2.6.2"
 pytest = "^5.2"
 
 [build-system]
-requires = ["poetry-core>=1.0.0", "pybind11>=2.6.2"]
+requires = ["poetry-core>=1.0.0", "pybind11>=2.6.2", "setuptools"]
 build-backend = "poetry.core.masonry.api"
