@@ -28,7 +28,7 @@ namespace py = pybind11;
 template <typename... Args>
 std::string py_format(const std::string& format, Args... args) {
   // Use python's string format
-  static py::object py_format = py::module::import("cnest.format").attr("format");
+  py::object py_format = py::module::import("cnest.format").attr("format");
   return py::cast<py::str>(py_format(format, args...));
 }
 
